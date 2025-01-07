@@ -98,7 +98,7 @@ display_table(customer_name, date, quantity, total_price)
 ```
 
 Ini adalah metode statis yang menampilkan hasil pemesanan dalam format tabel.
-Menampilkan informasi nama pelanggan, tanggal pemesanan, jumlah kasur yang dipesan, dan total harga.
+Menampilkan informasi nama pelanggan, tanggal pemesanan, jumlah bebek rica rica yang dipesan, dan total harga.
 Format output tabel dibuat menggunakan karakter khusus (misalnya +, |, dan spasi) untuk memberikan tampilan yang terstruktur dan mudah dibaca.
 
 ## CLASS PROCESS
@@ -123,4 +123,7 @@ Format output tabel dibuat menggunakan karakter khusus (misalnya +, |, dan spasi
             print("Format tanggal tidak valid. Gunakan MM/YYYY.")
             return None
 ```
+Metode statis ini memvalidasi input untuk jumlah kasur yang dimasukkan oleh pengguna.
+Pertama, mencoba mengonversi nilai input ke dalam bentuk integer. Jika berhasil, akan memeriksa apakah jumlah bebek rica rica lebih dari atau sama dengan 1.
+Jika valid, mengembalikan nilai quantity, jika tidak valid, mencetak pesan error dan mengembalikan None.
 
