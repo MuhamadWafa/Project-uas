@@ -123,7 +123,7 @@ Format output tabel dibuat menggunakan karakter khusus (misalnya +, |, dan spasi
             print("Format tanggal tidak valid. Gunakan MM/YYYY.")
             return None
 ```
-Metode statis ini memvalidasi input untuk jumlah kasur yang dimasukkan oleh pengguna.
+Metode statis ini memvalidasi input untuk jumlah bebek rica rica yang dimasukkan oleh pengguna.
 Pertama, mencoba mengonversi nilai input ke dalam bentuk integer. Jika berhasil, akan memeriksa apakah jumlah bebek rica rica lebih dari atau sama dengan 1.
 Jika valid, mengembalikan nilai quantity, jika tidak valid, mencetak pesan error dan mengembalikan None.
 
