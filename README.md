@@ -8,6 +8,7 @@
 Program ini adalah aplikasi sederhana untuk berjualan bebek rica rica di terminal. Program ini dibuat dengan pendekatan modular dan menggunakan prinsip OOP (Object-Oriented Programming). 
 
 PYTHON```
+
 class Mattress:
     def __init__(self, quantity):
         self.quantity = quantity
@@ -78,4 +79,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
     ````
