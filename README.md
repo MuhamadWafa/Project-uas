@@ -160,7 +160,8 @@ Pengguna diminta untuk memasukkan nama pelanggan, jumlah bebek rica rica, dan ta
 
 ## CONTOH OUTPUT
 Berikut adalah contoh input dan output setelah pengguna berhasil memasukan data:
-<img width="287" alt="Screenshot 2025-01-06 214651" src="https://github.com/user-attachments/assets/36539fb2-6d0e-4e24-87d6-89095a932a9e" />
+
+# <img width="287" alt="Screenshot 2025-01-06 214651" src="https://github.com/user-attachments/assets/36539fb2-6d0e-4e24-87d6-89095a932a9e" />
 
 
 
