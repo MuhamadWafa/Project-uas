@@ -83,3 +83,23 @@ if __name__ == "__main__":
     main()
 ```
 kode di atas merupakan program yang mensimulasikan pemesanan bebek rica rica, di mana pengguna dapat memasukkan nama pelanggan, jumlah bebek rica rica yang dipesan, dan tanggal pemesanan. Program ini menghitung total harga dan menampilkan hasilnya dalam format yang terstruktur.
+
+## KELAS VIEW
+```PYTHON
+display_table(customer_name, date, quantity, total_price)
+ print("\n+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+")
+        print("|                     Hasil                       |")
+        print("+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+")
+        print(f"| Nama Pelanggan: {customer_name}                  |")
+        print(f"| Tanggal: {date}                                 |")
+        print(f"| Jumlah bebek rica rica : {quantity}                        |")
+        print(f"| Total Harga: Rp{total_price}                    |")
+        print("+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+")
+```
+
+Ini adalah metode statis yang menampilkan hasil pemesanan dalam format tabel.
+Menampilkan informasi nama pelanggan, tanggal pemesanan, jumlah kasur yang dipesan, dan total harga.
+Format output tabel dibuat menggunakan karakter khusus (misalnya +, |, dan spasi) untuk memberikan tampilan yang terstruktur dan mudah dibaca.
+
+
+
