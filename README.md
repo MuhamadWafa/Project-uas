@@ -7,6 +7,8 @@
 
 Program ini adalah aplikasi sederhana untuk berjualan bebek rica rica di terminal. Program ini dibuat dengan pendekatan modular dan menggunakan prinsip OOP (Object-Oriented Programming). 
 
+## BERIKUT PROGRAM BEBEK TERSEBUT
+
 ```PYTHON
 
 class Mattress:
