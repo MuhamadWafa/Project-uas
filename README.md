@@ -7,7 +7,7 @@
 
 Program ini adalah aplikasi sederhana untuk berjualan bebek rica rica di terminal. Program ini dibuat dengan pendekatan modular dan menggunakan prinsip OOP (Object-Oriented Programming). 
 
-## BERIKUT PROGRAM BEBEK TERSEBUT
+## BERIKUT PROGRAM INPUT TERSEBUT
 
 ```PYTHON
 
@@ -83,3 +83,7 @@ if __name__ == "__main__":
     main()
     
     ````
+
+Kode di atas merupakan program yang mensimulasikan pemesanan bebek rica rica, di mana pengguna dapat memasukkan nama pelanggan, jumlah bebek rica rica yang dipesan, dan tanggal pemesanan. Program ini menghitung total harga dan menampilkan hasilnya dalam format yang terstruktur.
+
+
