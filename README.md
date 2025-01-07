@@ -127,3 +127,37 @@ Metode statis ini memvalidasi input untuk jumlah kasur yang dimasukkan oleh peng
 Pertama, mencoba mengonversi nilai input ke dalam bentuk integer. Jika berhasil, akan memeriksa apakah jumlah bebek rica rica lebih dari atau sama dengan 1.
 Jika valid, mengembalikan nilai quantity, jika tidak valid, mencetak pesan error dan mengembalikan None.
 
+## FUNGSI MAIN
+```PYTHON
+ # Input dari pengguna
+    customer_name = input("Masukkan nama pelanggan: ")
+    user_input = input("Masukkan jumlah bebek rica rica: ")
+    date_input = input("Masukkan tanggal (bulan/tahun - MM/YYYY): ")
+    
+    # Validasi input
+    quantity = Process.validate_input(user_input)
+    if quantity is None:
+        return  # Menghentikan program jika input tidak valid
+
+    date = Process.validate_date(date_input)
+    if date is None:
+        return  # Menghentikan program jika input tanggal tidak valid
+
+    # Proses data
+    mattress = Mattress(quantity)
+    total_price = mattress.total_price()
+
+    # Tampilkan hasil
+    View.display_table(customer_name, date, quantity, total_price)
+
+
+if __name__ == "__main__":
+    main()
+```
+Fungsi utama ini berfungsi sebagai penghubung antara input pengguna, pemrosesan data, dan tampilan hasil.
+Input dari pengguna:
+Pengguna diminta untuk memasukkan nama pelanggan, jumlah bebek rica rica, dan tanggal pemesanan.
+
+
+
+
